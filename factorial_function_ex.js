@@ -1,7 +1,7 @@
 function startfunction(number){ 
     let funtion = 1;
     for(i = 1; i <= number; i++){
-        funtion = funtion * 1;
+        funtion = funtion * i;
     }
     return funtion;
 }
