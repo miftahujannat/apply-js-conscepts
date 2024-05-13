@@ -27,7 +27,7 @@
 // console.log(firstfactorial); 
 
 var factorial = 1;
-for (i = 1; i <= 1000; i++){
+for (i = 1; i < 1000; i++){
     console.log(i);
    
     factorial = factorial * i;
