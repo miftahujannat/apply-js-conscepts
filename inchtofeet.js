@@ -25,14 +25,35 @@ function inchtofeet(inches){
 // function celciustofarenheit(celcius){
 //     var farenheit = celcius * (9/5) + 32;
 //     return farenheit;
-// }
-// var mycelcius = celciustofarenheit(9);
-// console.log(mycelcius);
+//  }
+//  var mycelcius = celciustofarenheit(9);
+//  console.log(mycelcius);
 
 // farenheittocelcius
-function farenheittocelcius(farenheit){
-    var celcius = (farenheit - 32) * 5/9;
-    return celcius;
+// function farenheittocelcius(farenheit){
+//      var celcius = (farenheit - 32) * 5/9;
+//      return celcius;
+//  }
+//  var myfareheit = farenheittocelcius(345);
+//  console.log(myfareheit);
+
+
+// function value(x){
+//     var r = Math.sqrt(x/3.1416);
+//     return r;
+
+// }
+// var myvalue = value(5);
+// console.log(myvalue);
+
+// x = 3.1316* r^2
+// 3.1316* r^2 = x
+// r^2 = x/ 3.1416
+// r = sqrt x/3.1416
+
+function value(x){
+    var r = x*25;
+    return r;
 }
-var myfareheit = farenheittocelcius(32);
-console.log(myfareheit);
+var valueis = value(3);
+console.log(valueis);
