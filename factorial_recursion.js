@@ -8,10 +8,11 @@
 //n! = n * (n-1)!
 //
 
-var factorial = 1;
-for (i = 1; i <= 7; i++){
-    console.log(i);
-   
-    factorial = factorial * i;
+function factorial(n){
+    if(n==1){
+        return 1;
+    }
+    return n * factorial(n-1);
 }
-console.log(factorial);
+const myfactorial = factorial(7);
+console.log(myfactorial);
